@@ -7,8 +7,8 @@
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
     
 <script type="module">
-import init, * as bindings from '/festivalguidoval/festiva.js';
-const wasm = await init({ module_or_path: '/festivalguidoval/festiva_bg.wasm' });
+import init, * as bindings from '/cardapio/festiva.js';
+const wasm = await init({ module_or_path: '/cardapio/festiva_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -17,7 +17,7 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-    <link rel="stylesheet" href="/festivalguidoval/style.css" integrity="sha384-cglpr5s6b5kmP77lJ+XxBbq8kD1MuW7BZJTzZ3zKXXOSqwRzQcHmfl6taFjRCaQe"/>
+    <link rel="stylesheet" href="/cardapio/style.css" integrity="sha384-cglpr5s6b5kmP77lJ+XxBbq8kD1MuW7BZJTzZ3zKXXOSqwRzQcHmfl6taFjRCaQe"/>
     
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
     <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
@@ -26,8 +26,8 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
     <title>🥘 Festival Gastronômico </title>
 
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <base href="/festivalguidoval/" />
-<link rel="modulepreload" href="/festivalguidoval/festiva.js" crossorigin="anonymous" integrity="sha384-1j+AfVsTkA03aHMnr1LGFWLKYkdbetwovL0Rdl9kz8qfoNAVRVYQAlSo555Nfnt9"><link rel="preload" href="/festivalguidoval/festiva_bg.wasm" crossorigin="anonymous" integrity="sha384-pz47wGcdnOW3oOvHNAKJTQtrPK9P/btooplhg0zVks4pw5k86XfSJruS9S+U4Wub" as="fetch" type="application/wasm"></head>
+    <base href="/cardapio/" />
+<link rel="modulepreload" href="/cardapio/festiva.js" crossorigin="anonymous" integrity="sha384-1j+AfVsTkA03aHMnr1LGFWLKYkdbetwovL0Rdl9kz8qfoNAVRVYQAlSo555Nfnt9"><link rel="preload" href="/cardapio/festiva_bg.wasm" crossorigin="anonymous" integrity="sha384-pz47wGcdnOW3oOvHNAKJTQtrPK9P/btooplhg0zVks4pw5k86XfSJruS9S+U4Wub" as="fetch" type="application/wasm"></head>
 
 <body>
 
